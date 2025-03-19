@@ -1,0 +1,59 @@
+/*ESTILOS GENERALES*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+/*ESTILOS IMAGENES EJEMPLO*/
+.caja_contenido {
+    margin: 0px 20px;
+    border: 2px solid red;
+    width: auto;
+    height: 500px;
+    padding: 10px;
+}
+
+.caja_contenido div {
+    border: 2px solid black;
+    width: 48%;
+    height: 100%;
+    display: inline-block;
+    color: white;
+}
+
+.imagen_1 {
+    float: left;
+    background-color: green;
+}
+
+.imagen_2 {
+    float: right;
+    background-color: blue;
+}
+
+/*- Añade el siguiente código Responsive al .CSS y observa como varia la web*/
+@media only screen and (max-width: 1024px) {
+    .imagen_2 {
+        background-color: yellow;
+    }
+}
+
+/*- Añade el siguiente código Responsive al .CSS y observa como varia la web*/
+@media only screen and (max-width: 1024px) {
+    .caja_contenido div {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+/*- Añade el siguiente código Responsive al .CSS y observa como varia la web*/
+/*
+@media only screen and (max-width: 1024px) {
+    .caja_contenido .imagen_1 {
+        display: none;
+    }
+}
+*/
