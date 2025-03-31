@@ -1,0 +1,81 @@
+/****************************************
+    hoja de estilo de Ejercicio4.html
+    Tarea 4 - RESPONSIVE 2
+    Fecha: 2025-03-30
+    Autor: Antonio Cordero Molina 1ºDAW
+    CESUR Málaga Este
+*****************************************/
+
+
+/*********** Estilo general *************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+/******** Estilo del Contenido **********/
+.contenedorGeneral {
+    width: 75%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorGeneral h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedorGeneral .contenido {
+    display: flex;
+    gap: 20px;
+}
+
+.contenedorGeneral .contenido .SeccionVideo {
+    width: 100%
+}
+
+.contenedorGeneral .contenido .SeccionVideo iframe {
+    width: 100%;
+    display: block;
+}
+
+.contenedorGeneral .contenido .descripcionVideo {
+    margin-top: 10px;
+}
+
+.contenedorGeneral .contenido .seccionImagenes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contenedorGeneral .contenido .seccionImagenes img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/******************** RESPONSIVE MÓVIL (1024px) **********************/
+@media (max-width: 1024px) {
+    .contenedorGeneral {
+        width: 90%;
+    }
+
+    .contenedorGeneral .contenido {
+        flex-direction: column;
+    }
+
+    .contenedorGeneral .contenido .seccionImagenes img {
+        display: none;
+    }
+
+    .descripcionVideo {
+        width: 100%;
+    }
+}
