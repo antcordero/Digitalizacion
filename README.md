@@ -23,6 +23,9 @@
   <br>
   <p>-> Ejercicios</p>
   <ul>
+  <li>    
+      <a href="https://antcordero.github.io/Digitalizacion/T3/Ejercicios/Ejercicio4/Ejercicio4.html">Ejercicio 4 - Web navegable</a>
+    </li>
     <li>    
       <a href="https://antcordero.github.io/Digitalizacion/T3/Ejercicios/Ejercicio5/Ejercicio5.html">Ejercicio 5 - Web navegable</a>
     </li>
