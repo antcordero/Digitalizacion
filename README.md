@@ -21,7 +21,7 @@
     </li>
   </ul>
   <br>
-  <p>Ejercicios</p>
+  <p>-> Ejercicios</p>
   <ul>
     <li>    
       <a href="https://antcordero.github.io/Digitalizacion/T3/Ejercicios/Ejercicio5/Ejercicio5.html">Ejercicio 5 - Web navegable</a>
